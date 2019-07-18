@@ -1,6 +1,33 @@
-<body> {
-  background-color: #18E4D0;
+
+body {
+  background-image: url("https://i.ytimg.com/vi/l7WeNO_j5VM/maxresdefault.jpg");
 }
-h1 {
-  color:green
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding:2px;
+  text-align: center;
+  color: white;
+  justify-content: space-around;
 }
+.navbar >li {
+  font-size: 20px;
+  padding: 1px;
+  text-align: center;
+  border: 2px solid black;
+  flex: 1;
+  color: white;
+}
+.navbar>li: hover {
+  background color: white;
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+
