@@ -1,0 +1,50 @@
+
+body {
+  background-image: url("https://i.ytimg.com/vi/l7WeNO_j5VM/maxresdefault.jpg");
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding:2px;
+  text-align: center;
+  color: white;
+  justify-content: space-around;
+}
+.navbar >li {
+  font-size: 20px;
+  padding: 1px;
+  text-align: center;
+  border: 2px solid black;
+  flex: 1;
+  color: white;
+}
+.navbar>li: hover {
+  background color: white;
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+
+iframe{
+
+    margin-left: 20em;
+    margin-right: 20em;
+body{
+    background-color: azure;
+
+}
+#nav{
+    font-size: 40px;
+    width:80%;
+    margin-left: 5em;
+
+    }
+a:hover{
+    color: crimson;
+}
